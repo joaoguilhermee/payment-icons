@@ -1,6 +1,7 @@
 import alipay from "./alipay";
 import amex from "./amex";
 import diners from "./diners";
+import def from "./default";
 import discover from "./discover";
 import elo from "./elo";
 import hipercard from "./hipercard";
@@ -17,6 +18,7 @@ export default {
   alipay,
   amex,
   diners,
+  default: def,
   discover,
   elo,
   hipercard,
